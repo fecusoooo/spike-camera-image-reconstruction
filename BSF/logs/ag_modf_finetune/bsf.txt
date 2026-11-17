@@ -1,0 +1,92 @@
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 0
+arch : 'bsf'
+batch_size : 2
+learning_rate : 2e-05
+train_res : [96, 96]
+input_type : 'raw_spike'
+epochs : 10
+workers : 4
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/ag_modf_finetune'
+vis_name : 'model1'
+eval_path : 'eval_vis/ag_modf_finetune'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : ['5', '8']
+lr_scale_factor : 0.5
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : False
+logs_file_name : 'ag_modf_finetune'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 5 8 
+=>Save path: outputs/06-08/a_bsf_b2_194357
+Start compile the model
+Finish compiling the model  Time 1.50s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.480022M
+=> settings Adam solver
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 0
+arch : 'bsf'
+batch_size : 2
+learning_rate : 2e-05
+train_res : [96, 96]
+input_type : 'raw_spike'
+epochs : 10
+workers : 4
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/ag_modf_finetune'
+vis_name : 'model1'
+eval_path : 'eval_vis/ag_modf_finetune'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : ['5', '8']
+lr_scale_factor : 0.5
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : False
+logs_file_name : 'ag_modf_finetune'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 5 8 
+=>Save path: outputs/06-08/a_bsf_b2_194620
+Start compile the model
+Finish compiling the model  Time 1.25s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.480022M
+=> settings Adam solver

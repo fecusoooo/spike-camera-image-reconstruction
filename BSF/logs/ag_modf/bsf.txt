@@ -1,0 +1,94 @@
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/ag_modf'
+vis_name : 'model1'
+eval_path : 'eval_vis/ag_modf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'ag_modf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-08/a_bsf_b8_185656
+Start compile the model
+Finish compiling the model  Time 1.40s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.480022M
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/ag_modf'
+vis_name : 'model1'
+eval_path : 'eval_vis/ag_modf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'ag_modf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-08/a_bsf_b8_190525
+Start compile the model
+Finish compiling the model  Time 1.40s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.480022M
+=> settings Adam solver
+Eta 1.00  ALL  PSNR 38.9957  SSIM 0.9642  LPIPS-A 0.0332  LPIPS-V 0.0846  AvgTime 0.2900
+Eta 0.75  ALL  PSNR 38.0100  SSIM 0.9556  LPIPS-A 0.0423  LPIPS-V 0.1005  AvgTime 0.2744
+Eta 0.50  ALL  PSNR 35.9377  SSIM 0.9367  LPIPS-A 0.0613  LPIPS-V 0.1274  AvgTime 0.2762

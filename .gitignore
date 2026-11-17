@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Temporary files
+.DS_Store
+*.log
+
+# Large datasets and model checkpoints
+data/raw/
+datasets/
+checkpoints/
+*.pth
+*.ckpt
+*.pt
+
+# IDE
+.vscode/
+.idea/

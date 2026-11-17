@@ -1,0 +1,558 @@
+dataset_storage : 'ram'
+data_root : '/dev/shm/rzhao/REDS120fps'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/bsf'
+vis_name : 'model1'
+eval_path : 'eval_vis/bsf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'bsf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-01/a_bsf_b8_192025
+Start compile the model
+Finish compiling the model  Time 0.11s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.476870M
+=> settings Adam solver
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/bsf'
+vis_name : 'model1'
+eval_path : 'eval_vis/bsf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'bsf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-07/a_bsf_b8_200446
+Start compile the model
+Finish compiling the model  Time 0.14s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.476870M
+=> settings Adam solver
+dataset_storage : 'ram'
+data_root : '/home/lhs183019/snap/snapd-desktop-integration/current/Desktop/BSF/raw_data_our'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/bsf'
+vis_name : 'model1'
+eval_path : 'eval_vis/bsf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'bsf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-07/a_bsf_b8_201733
+Start compile the model
+Finish compiling the model  Time 0.13s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.476870M
+=> settings Adam solver
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/bsf'
+vis_name : 'model1'
+eval_path : 'eval_vis/bsf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'bsf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-07/a_bsf_b8_201927
+Start compile the model
+Finish compiling the model  Time 0.13s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.476870M
+=> settings Adam solver
+Eta 1.00  ALL  PSNR 39.7590  SSIM 0.9703  LPIPS-A 0.0213  LPIPS-V 0.0666  AvgTime 0.2366
+Eta 0.75  ALL  PSNR 39.0882  SSIM 0.9643  LPIPS-A 0.0272  LPIPS-V 0.0772  AvgTime 0.2710
+Eta 0.50  ALL  PSNR 37.7641  SSIM 0.9514  LPIPS-A 0.0402  LPIPS-V 0.0975  AvgTime 0.2540
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/bsf'
+vis_name : 'model1'
+eval_path : 'eval_vis/bsf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'bsf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-07/a_bsf_b8_211648
+Start compile the model
+Finish compiling the model  Time 0.14s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.476870M
+=> settings Adam solver
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/bsf'
+vis_name : 'model1'
+eval_path : 'eval_vis/bsf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'bsf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-07/a_bsf_b8_211852
+Start compile the model
+Finish compiling the model  Time 0.13s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.476870M
+=> settings Adam solver
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/bsf'
+vis_name : 'model1'
+eval_path : 'eval_vis/bsf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'bsf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-07/a_bsf_b8_211916
+Start compile the model
+Finish compiling the model  Time 0.13s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.476870M
+=> settings Adam solver
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/bsf'
+vis_name : 'model1'
+eval_path : 'eval_vis/bsf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'bsf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-07/a_bsf_b8_212205
+Start compile the model
+Finish compiling the model  Time 1.46s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.476870M
+=> settings Adam solver
+Eta 1.00  ALL  PSNR 39.7587  SSIM 0.9703  LPIPS-A 0.0213  LPIPS-V 0.0666  AvgTime 0.2381
+Eta 0.75  ALL  PSNR 39.0880  SSIM 0.9643  LPIPS-A 0.0271  LPIPS-V 0.0772  AvgTime 0.2362
+Eta 0.50  ALL  PSNR 37.7640  SSIM 0.9514  LPIPS-A 0.0401  LPIPS-V 0.0975  AvgTime 0.2365
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/bsf'
+vis_name : 'model1'
+eval_path : 'eval_vis/bsf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'bsf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-07/a_bsf_b8_214838
+Start compile the model
+Finish compiling the model  Time 1.38s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.476870M
+=> settings Adam solver
+Eta 1.00  ALL  PSNR 39.7587  SSIM 0.9703  LPIPS-A 0.0213  LPIPS-V 0.0666  AvgTime 0.2632
+Eta 0.75  ALL  PSNR 39.0880  SSIM 0.9643  LPIPS-A 0.0271  LPIPS-V 0.0772  AvgTime 0.2758
+Eta 0.50  ALL  PSNR 37.7640  SSIM 0.9514  LPIPS-A 0.0401  LPIPS-V 0.0975  AvgTime 0.2747
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/bsf'
+vis_name : 'model1'
+eval_path : 'eval_vis/bsf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'bsf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-08/a_bsf_b8_184336
+Start compile the model
+Finish compiling the model  Time 0.14s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.480022M
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/bsf'
+vis_name : 'model1'
+eval_path : 'eval_vis/bsf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'bsf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-08/a_bsf_b8_184726
+Start compile the model
+Finish compiling the model  Time 1.60s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.480022M
+dataset_storage : 'ram'
+data_root : '/root/autodl-tmp'
+half_reserve : 2
+arch : 'bsf'
+batch_size : 8
+learning_rate : 0.0002
+train_res : [128, 128]
+input_type : 'raw_spike'
+epochs : 100
+workers : 8
+pretrained : 'ckpt/bsf.pth'
+start_epoch : 0
+print_freq : 100
+save_dir : 'outputs'
+save_name : None
+vis_path : 'vis/bsf'
+vis_name : 'model1'
+eval_path : 'eval_vis/bsf'
+vis_freq : 20
+eval : False
+print_details : False
+milestones : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+lr_scale_factor : 0.7
+eval_interval : 5
+no_imwrite : False
+compile_model : True
+seed : 2728
+alpha : 0.7
+eta_list : [1.0, 0.75, 0.5]
+gamma : 60
+solver : 'Adam'
+momentum : 0.9
+beta : 0.999
+weight_decay : 0.0
+test_eval : True
+logs_file_name : 'bsf'
+loss_type : 'l1'
+dsft_convertor_type : 4
+no_dsft : False
+milsones 10 20 30 40 50 60 70 80 90 100 
+=>Save path: outputs/06-08/a_bsf_b8_185720
+Start compile the model
+Finish compiling the model  Time 1.48s
+=> using pretrained model ckpt/bsf.pth
+=> model params: 2.480022M
