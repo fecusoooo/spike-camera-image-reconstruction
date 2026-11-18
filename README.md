@@ -32,8 +32,6 @@ We also made an exploratory modification to BSF's MODF feature-fusion stage usin
 - **BSF paper:** Rui Zhao et al., “Boosting Spike Camera Image Reconstruction from a Perspective of Dealing with Spike Fluctuations,” CVPR 2024.
 - **SpikeCV:** Open-source spike-camera vision framework used for the TFI, TFP, and SSML scripts described in the report.
 
-For the exact experimental setup, preprocessing details, additional figures, and discussion, see the project report.
-
 ---
 
-*This README summarizes the team's course-project report and repository contents. It distinguishes the reported experimental observations from the exploratory Safe PG-MODF modification and its stated limitations.*
+For the exact experimental setup, preprocessing details, additional figures, and discussion, see the project report.
